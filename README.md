@@ -29,6 +29,18 @@ using namespace std;
 #define endl '\n'
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
+/*
+   ######################################
+   #                                    #
+   #       #####   #####   #######      #
+   #         #     #   #   #            #
+   #         #     #   #   #####        #
+   #      #  #     #   #   #            #
+   #       ##      #####   #######      #
+   #                                    #
+   ######################################
+ */
+
 bool picked(const vector<int> &v, int x) {
     return find(v.begin(), v.end(), x) != v.end();
 }
